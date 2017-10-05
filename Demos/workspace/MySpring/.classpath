@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Java/spring-framework-2.5.2/dist/spring.jar"/>
+	<classpathentry kind="lib" path="D:/Java/spring-framework-2.5.2/lib/jakarta-commons/commons-validator.jar"/>
+	<classpathentry kind="lib" path="D:/Java/spring-framework-2.5.2/lib/jakarta-commons/commons-attributes-api.jar"/>
+	<classpathentry kind="lib" path="D:/Java/spring-framework-2.5.2/lib/jakarta-commons/commons-attributes-compiler.jar"/>
+	<classpathentry kind="lib" path="D:/Java/spring-framework-2.5.2/lib/jakarta-commons/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="D:/Java/spring-framework-2.5.2/lib/jakarta-commons/commons-codec.jar"/>
+	<classpathentry kind="lib" path="D:/Java/spring-framework-2.5.2/lib/jakarta-commons/commons-collections.jar"/>
+	<classpathentry kind="lib" path="D:/Java/spring-framework-2.5.2/lib/jakarta-commons/commons-dbcp.jar"/>
+	<classpathentry kind="lib" path="D:/Java/spring-framework-2.5.2/lib/jakarta-commons/commons-digester.jar"/>
+	<classpathentry kind="lib" path="D:/Java/spring-framework-2.5.2/lib/jakarta-commons/commons-discovery.jar"/>
+	<classpathentry kind="lib" path="D:/Java/spring-framework-2.5.2/lib/jakarta-commons/commons-fileupload.jar"/>
+	<classpathentry kind="lib" path="D:/Java/spring-framework-2.5.2/lib/jakarta-commons/commons-httpclient.jar"/>
+	<classpathentry kind="lib" path="D:/Java/spring-framework-2.5.2/lib/jakarta-commons/commons-io.jar"/>
+	<classpathentry kind="lib" path="D:/Java/spring-framework-2.5.2/lib/jakarta-commons/commons-lang.jar"/>
+	<classpathentry kind="lib" path="D:/Java/spring-framework-2.5.2/lib/jakarta-commons/commons-logging.jar"/>
+	<classpathentry kind="lib" path="D:/Java/spring-framework-2.5.2/lib/jakarta-commons/commons-pool.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

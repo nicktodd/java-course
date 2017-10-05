@@ -1,0 +1,3 @@
+hello from the input file
+this is fascinating stuff!
+this was last done in 2011

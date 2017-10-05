@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!DOCTYPE beans PUBLIC "-//SPRING/DTD BEAN//EN"
+     "http://www.springframework.org/dtd/spring-beans.dtd" >
+<beans>
+  <bean id="person1"
+        class="com.conygre.spring.Person" autowire="byType">
+    <constructor-arg>
+      <value>Joe Bloggs</value>
+    </constructor-arg>
+    <constructor-arg>
+      <value>21</value>
+    </constructor-arg>
+    <!-- <property name="address">
+    	<ref bean="address1"/>
+    </property> -->
+  </bean>
+  
+  <bean id="address1" class="com.conygre.spring.Address">
+  	<property name="city">
+  		<value>Bristol</value>
+  	</property>
+  </bean>
+</beans>

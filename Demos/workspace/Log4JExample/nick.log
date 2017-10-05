@@ -1,0 +1,7 @@
+This is an error message
+This is a debug message
+This is just an info message
+15:42:32,905 ERROR citi:25 - This is an error message
+15:42:32,920 DEBUG citi:27 - This is a debug message
+15:42:32,920  INFO citi:29 - This is just an info message
+15:44:29,936 ERROR citi:25 - This is an error message

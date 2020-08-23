@@ -108,95 +108,136 @@ File in = new File(args[0];
 File in = new File(args[0]);
 File out = new File(args[1]);
 		
-```try {```
-		
-```FileReader reader = new FileReader(in);```
-```BufferedReader bReader = new BufferedReader(reader);```
-		
-```FileWriter writer  = new FileWriter(out);```	```BufferedWriter bWriter = new BufferedWriter(writer);```
-		
-```while (true)```
-{
-```String line = bReader.readLine();```
-```if (line == null) break;```
-```bWriter.write(line);```	```bWriter.newLine();```
+```
+try {
+	FileReader reader = new FileReader(in);
+	BufferedReader bReader = new BufferedReader(reader);
 			
-}
-```bWriter.flush();```
-```bWriter.close();```
-		
-```catch (FileNotFoundException e) {```
-```// TODO Auto-generated catch block```	```e.printStackTrace();```
-```catch (IOException e) {```
-```// TODO Auto-generated catch block```
-```e.printStackTrace();```
+	FileWriter writer  = new FileWriter(out);	
+	BufferedWriter bWriter = new BufferedWriter(writer);
+			
+	while (true) {
+		String line = bReader.readLine();
+		if (line == null) break;
+		bWriter.write(line);	
+		bWriter.newLine();		
 	}
+	bWriter.flush();
+	bWriter.close();
+}		
+catch (FileNotFoundException e) {
+	e.printStackTrace();
+}
+catch (IOException e) {
+	e.printStackTrace();
+}
+```
 
 ### Part 3 Running the Program
+
 Eclipse users
+
 To pass a parameter at the command line when the program runs. 
+
 1.	Click Run, and then click Run Configurations (see Figure 5).
+
 2.	At the Create, manage and run configurations dialog, check the the project refers to your project and the Main Class refers to your FileCopier program.
+
 3.	Click the Arguments tab. In the Program Arguments text area, enter your file names as arguments separated by a space.
 
- 
-Figure 5 Passing Arguments to a Java Program from Eclipse
+ ### Optional Part
 
-### Optional Part
 The practical you have just completed simply assumed that if the output file already exists, then it will write to a default location – even if that default location already exists!
 
 Expand your previous work so that if the output file already exists, the program prompts the user to see if they wish to overwrite the existing file, or specify a different target instead. To do this, you will need to process System.in.
  
  
 ## Appendix D: Introduction to JDBC
+
 ### Aims
 
 In this lab, you will create a connection to a database.  The table in the database will contain information about people.  You will retrieve this information and display it. The database used is an Access Database. The driver used will be the Type 1 JDBC-ODBC Bridge Driver.
 
 ### Preparation: Setting up an ODBC Datasource
+
 You will be using an ODBC data source called ‘people’ for this application. It will link to an Access database.
+
 1.	From Windows, click Start, point to Settings, and then click Control Panel.
+
 2.	Launch the Data Sources (ODBC) (on XP, this will be in the Administrative Tools section).
+
 3.	From the ODBC Data Source Administrator dialog, select the System DSN tab.
+
 4.	Click Add, and select the Microsoft Access Driver (*.mdb).
+
 5.	From the ODBC Microsoft Access Setup dialog. Set the Data Source Name field to people.
+
 6.	From the ODBC Microsoft Access Setup dialog, click Select.
+
 7.	From the Select Database dialog, browse to <LAB_HOME>\labs\jdbc\people.mdb. This is the Access database.
+
 8.	Click OK to dismiss the Select Database dialog.
+
 9.	Click OK to dismiss the ODBC Microsoft Access Setup dialog.	
+
 10.	Click OK to dismiss the ODBC Data Source Administrator. 
 
 You have now setup the database to be available with the name people, through ODBC.
+
 ###  Part 1 Create a connection
+
 1.	Open <LAB_HOME>\labs\jdbc\PersonConnector.java in your text editor or IDE.
+
 2.	Import the appropriate package.
+
 3.	In the main method and within the try block, load the driver using Class.forName(“sun.jdbc.odbc.JdbcOdbcDriver”);
+
 4.	Create a new connection using the driver.  Your code will look something like this:
 
+```
 Connection conn = DriverManager.getConnection (“jdbc:odbc:people”);
+```
+
 If there are any changes to this due to your classroom environment, your instructor will inform you. 
+
 ### Part 2 Retrieving the Data
 1.	Use the connection to create a new Statement
+
 2.	Create a String and give it the value “select * from people”
+
 3.	Use the executeQuery method on the Statement, passing in your String, to get a ResultSet
+
 4.	Now loop through the ResultSet and display the data using System.out.println() statements.  The data in the table includes the following:
 
-Column Name	Data Type
-Name	String
-Age	Int
-Gender	String
+|Column Name	|Data Type|
+|-|-|
+|Name|	String|
+|Age|	Int|
+|Gender|	String|
 
 5.	At the end of each iteration, add an empty line.
-6.	Finally, you need to close your connection and statement objects. Do this from the finally block. Remember that the close method on each throw SQLExceptions, you will need to nest a try / catch block in your finally block.
-### Part 3 Adding Search Capability
-In this section we are going to take an argument from the command line and use it to perform searches.  A user will pass a name to search on, and the class will return the relevant details. To use the command line, use the Run Dialog described in the File IO exercise (see Figure 5).
-1.	Open <LABS_HOME>\labs\jdbc\DynamicPersonConnector.java.
-2.	(optional) Add some code to check that an argument has been passed into the main method
-3.	Declare a String called argument and assign it the value args[0]
-4.	Underneath the code which establishes a Connection, use the connection to prepare a Statement with the text: “select * from people where name = ?”
-5.	Use the PreparedStatement’s setString() method to set the first parameter to argument
-6.	Obtain a ResultSet by calling the executeQuery() method on the PreparedStatement.
-7.	Add the clean up code as you did previously to close the connection and the statement.
-8.	Compile and run the class and pass in some test parameters.  E.g. 
-java DynamicPersonConnector Paul 
 
+6.	Finally, you need to close your connection and statement objects. Do this from the finally block. Remember that the close method on each throw SQLExceptions, you will need to nest a try / catch block in your finally block.
+
+### Part 3 Adding Search Capability
+
+In this section we are going to take an argument from the command line and use it to perform searches.  A user will pass a name to search on, and the class will return the relevant details. To use the command line, use the Run Dialog described in the File IO exercise (see Figure 5).
+
+1.	Open <LABS_HOME>\labs\jdbc\DynamicPersonConnector.java.
+
+2.	(optional) Add some code to check that an argument has been passed into the main method
+
+3.	Declare a String called argument and assign it the value args[0]
+
+4.	Underneath the code which establishes a Connection, use the connection to prepare a Statement with the text: “select * from people where name = ?”
+
+5.	Use the PreparedStatement’s setString() method to set the first parameter to argument
+
+6.	Obtain a ResultSet by calling the executeQuery() method on the PreparedStatement.
+
+7.	Add the clean up code as you did previously to close the connection and the statement.
+
+8.	Compile and run the class and pass in some test parameters.  E.g. 
+```
+java DynamicPersonConnector Paul 
+```

@@ -1,5 +1,16 @@
 ## Java Programming for Developers
 
+## Setup
+### Introduction to your computer
+ Software
+The following software should be installed on your Computer
+
+1. Java Developers Kit 8 or above
+2. Your Preferred IDE, such as Eclipse, IntelliJ or Visual Studio Code
+
+Lab Directories
+For the exercises, everything you need unless otherwise directed can be found at https://github.com/nicktodd/java-course. If you clone or download that repository, you will find the solutions to the exercises can be found in solutions. Various demonstrations can be found in demos.
+
 ## Course Labs Contents
 
 Chapter 1: [Introduction to Java](chapter1.md)
@@ -38,22 +49,7 @@ Chapter 18 [Working with JUnit](chapter18.md)
 
 Chapter 19: [Multithreading](chapter19.md)	
 
-Appendix A: [Java Networking with Sockets](java%20networkin.md)	
+Appendix Labs: [Appendices](AppendixLabs.md)	
 
-Appendix B Inner Classes	
 
-Appendix C: File IO	38
-
-Appendix D: Introduction to JDBC	41
-
- 
-Introduction to your computer
- Software
-The following software should be installed on your Operating System.
-
-•	Java Developers Kit 8 or above
-
-•	Your Preferred IDE, such as Eclipse, IntelliJ or Visual Studio Code
-Lab Directories
-For the exercises, everything you need unless otherwise directed can be found at https://github.com/nicktodd/java-course. If you clone or download that repository, you will find the solutions to the exercises can be found in solutions. Various demonstrations can be found in demos.
 

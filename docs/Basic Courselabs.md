@@ -38,7 +38,7 @@ Chapter 18 [Working with JUnit](chapter18.md)
 
 Chapter 19: [Multithreading](chapter19.md)	
 
-Appendix A: [Java Networking with Sockets](Basic%20Courselabs.md)	
+Appendix A: [Java Networking with Sockets](java%20networkin.md)	
 
 Appendix B Inner Classes	
 

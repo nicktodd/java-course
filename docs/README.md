@@ -54,3 +54,5 @@ Chapter 19: [Multithreading](chapter19.md)
 Appendix Labs: [Appendices](AppendixLabs.md)
 
 Hackathon: [Hackathon](assignment.md)
+
+TDD Exercise: [TDD](tdd.md)

@@ -10,6 +10,8 @@ The following software should be installed on your Computer
 1. Java Developers Kit 8 or above
 2. Your Preferred IDE, such as Eclipse, IntelliJ or Visual Studio Code
 
+If you are unsure which to use, we would recommend IntelliJ Community Edition. The labs can all be completed inside a single IntelliJ project.
+
 Lab Directories
 For the exercises, everything you need unless otherwise directed can be found at https://github.com/nicktodd/java-course. If you clone or download that repository, you will find the solutions to the exercises can be found in solutions. Various demonstrations can be found in demos.
 

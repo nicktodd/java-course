@@ -28,7 +28,7 @@ public static void main(String[] args) {
 Don’t worry if you do not understand why at this stage. You will later.
 
 5. **Printing something out to the screen**
-Now we can inset some code to print something out to the console. Again, you may not understand why at this stage, but the code to do this is as follows, and it goes inside your main method’s curly braces.
+Now we can insert some code to print something out to the console. Again, you may not understand why at this stage, but the code to do this is as follows, and it goes inside your main method’s curly braces.
 ```
 System.out.println(“Hello from my first Java program!”);
 ```

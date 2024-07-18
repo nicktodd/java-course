@@ -29,7 +29,7 @@ Figure 4 Using Eclipse Intellisense
 
 4.	From the intellisense drop down, select out, and then add a further full stop (period), and then you will get a further drop down for the methods and properties of out. Either select or type println, and then in the brackets add some text in double quotes. Don’t forget the semicolon from the end of the line! Your final statement should read:
 
-System.out.println(“Hello from my application”);
+System.out.println("Hello from my application");
 
 5.	Eclipse will compile your code automatically, so you can now run it. To run the application, from the Run menu, click Run As, and then click Run as Application. If you are prompted to save any resources, click OK.
 6.	The output from the application will appear in the console at the base of the screen.
@@ -53,7 +53,7 @@ Figure 4 Using Eclipse Intellisense
 
 4.	From the intellisense drop down, select out, and then add a further full stop (period), and then you will get a further drop down for the methods and properties of out. Either select or type println, and then in the brackets add some text in double quotes. Don’t forget the semicolon from the end of the line! Your final statement should read:
 
-System.out.println(“Hello from my application”);
+System.out.println("Hello from my application");
 
 5.	Eclipse will compile your code automatically, so you can now run it. To run the application, from the Run menu, click **Run** As, and then click Run as Application. If you are prompted to save any resources, click **OK**.
 6.	The output from the application will appear in the console at the base of the screen.

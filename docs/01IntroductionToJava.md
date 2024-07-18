@@ -30,7 +30,7 @@ Don’t worry if you do not understand why at this stage. You will later.
 5. **Printing something out to the screen**
 Now we can insert some code to print something out to the console. Again, you may not understand why at this stage, but the code to do this is as follows, and it goes inside your main method’s curly braces.
 ```
-System.out.println(“Hello from my first Java program!”);
+System.out.println("Hello from my first Java program!");
 ```
 
 
@@ -39,7 +39,7 @@ System.out.println(“Hello from my first Java program!”);
 ```
 public class MyFirstClass {
         public static void main(String[] args) {
-          System.out.println(“Hello from my first java program!”);
+          System.out.println("Hello from my first java program!");
         }
 }
 ```
@@ -54,5 +54,5 @@ public class MyFirstClass {
 
 ```java MyFirstClass```
 
-10. It should print out you’re the text that is in your System.out.println(“xxx”); statement.
+10. It should print out you’re the text that is in your System.out.println("xxx"); statement.
 

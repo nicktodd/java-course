@@ -47,7 +47,7 @@ assertEquals("midnight", timeAsText);
 
 Notice here we have to come up with names for our class and method. The code above uses the name TimeToTextConverter and convertTimeToText. You could use different names. The main thing is, you are coming up with names within the context of using the class.
 
-6. Now create the actual class under test, so in your IDE project explorer, locate the src/main/java folder and create the class under test (in our case TimeToTextConverter). Add in the method called convertTimeToText or whatever you called it, and return null for now. So you could end up with a class something like this:
+6. Now create the actual class under test. In IntelliJ, in the Project view, locate the src/main/java folder and create the class under test (in our case TimeToTextConverter). Add in the method called convertTimeToText or whatever you called it, and return null for now. So you could end up with a class something like this:
 
 ```
 public class TimeToTextConverter {

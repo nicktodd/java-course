@@ -6,9 +6,9 @@ In this exercise you will create an Enum to represent the currency used by your 
 
 ### Create a Basic Currency Enum
 
-1.	If you are using Eclipse, create a new Java project called CurrencyEnum.
+1.	In IntelliJ, create a new Java project called CurrencyEnum (or add to your existing project).
 
-2.	Create a new Java file called Currency.java (if using Eclipse, use New, then click Enum.
+2.	Create a new Java file called Currency.java. In IntelliJ, right-click on the src folder, select New → Java Class, then change the kind to "Enum" in the dialog.
 
 3.	Add three possible values for the Enum to be GBP, EUR, and USD.
 
@@ -16,11 +16,11 @@ In this exercise you will create an Enum to represent the currency used by your 
 
 ### Add a Currency property to the Account class
 
-1.	We have provided a simple Account class for you to use with this, so using Windows Explorer, drag the <LAB_HOME>\enums\Account.java file into your CurrencyEnum\src folder in Eclipse.
+1.	We have provided a simple Account class for you to use with this. Copy the Account.java file from <LAB_HOME>\enums\ into your project's src folder.
 
-2.	In Eclipse, open Account.java from within the project and add a new private property of type Currency called currency.
+2.	Open Account.java and add a new private property of type Currency called currency.
 
-3.	Add get and set methods to go with it.
+3.	Add get and set methods to go with it. In IntelliJ, you can use Alt+Insert or right-click and select Generate → Getter and Setter.
 
 4.	Add a new constructor that takes in name, balance and now a currency.
 

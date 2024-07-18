@@ -11,7 +11,7 @@ We are going to create a new class called Account, and save it in a file called 
    
 2.	Provide two properties called `balance` and `name`, setting them to be a `double` and a `String` respectively. These variables should be declared as private.
 
-3.	Now provide methods which will set and return the balance and the name. Ie. Provide, get and set methods for your two variables. You can use the Eclipse Source / Generate Getters and Setters if you wish. IntelliJ and Visual Studio Code have similar options.
+3.	Now provide methods which will set and return the balance and the name. Ie. Provide, get and set methods for your two variables. In IntelliJ, you can right-click in the editor, select Generate (or use Alt+Insert), and then select "Getter and Setter" to automatically generate these methods. Visual Studio Code has similar options.
 
 4.	Define a new method called addInterest, which does not take in any parameters or return any value, but increases the balance by 10%. We will be using this method later.
 
@@ -19,7 +19,7 @@ We are going to create a new class called Account, and save it in a file called 
 
 ### *Instantiating the class*
 
-6.	Create another class called **TestAccount** and this time add a main method to it. You can do this at the New Class dialog or in the blank class, type the word main, and the press Ctrl/Space.
+6.	Create another class called **TestAccount** and this time add a main method to it. You can check the "public static void main(String[] args)" option in the New Class dialog, or in a blank class, type the word "main" and then press Tab or Enter to use IntelliJ's live template to generate the main method.
 
 7.	Within this main method, declare and instantiate a new Account object called **myAccount**, and then call the set methods to give it a name and a balance. Set name to be your name, and you can give yourself as much money as you like!
 

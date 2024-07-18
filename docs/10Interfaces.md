@@ -20,7 +20,7 @@ We will then be able to create an array of Detailable objects, and call getDetai
 
 ### Define your Interface
 
-4.	Right click on your src folder and click New and then click Interface.Specify the name of the interface to be Detailable. Click Finish.
+4.	Right-click on your src folder, select New → Java Class, then change the kind to "Interface" in the dialog. Specify the name of the interface to be Detailable.
 
 5.	In the interface, declare an abstract method with the signature String getDetails(). Remember this is an abstract method.
 
@@ -28,7 +28,7 @@ We will then be able to create an array of Detailable objects, and call getDetai
 
 6.	Within your class HomeInsurance, add the implements Detailable to the class declaration. This will induce an error as you have not provided the method implementation for getDetails.
 
-7.	Hover over the error and select the quick fix option Add UnImplemented Methods. This will then add the getDetails method for you. 
+7.	Click on the error (red underline) and press Alt+Enter to see quick fix options. Select "Implement methods" to automatically add the getDetails method for you.
 
 8.	Update the new method to return the information about the policy. To concatenate the numeric values together as a String, you can place an empty String at the start of your concatenation, something like:
 

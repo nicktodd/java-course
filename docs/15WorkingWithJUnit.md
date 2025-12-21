@@ -16,13 +16,11 @@ Before starting, ensure your project has JUnit 5 (JUnit Jupiter) as a dependency
     <version>5.10.0</version>
     <scope>test</scope>
 </dependency>
-```
-
+```java\n
 2. If using Gradle, add this to your `build.gradle`:
 ```gradle
 testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
-```
-
+```java\n
 3. If not using a build tool, IntelliJ will prompt you to add JUnit 5 to the classpath when you create your first test.
 
 ### Building a Basic Test Harness
@@ -39,8 +37,7 @@ String s3 = new String("hello");
 boolean b1 = (s1 == s2);
 boolean b2 = (s1 == s3);
 boolean b3 = (s1.equals(s3));
-```
-
+```java\n
 Your predictions:
 b1 is  _________________
 
@@ -59,8 +56,7 @@ b3 is _________________
 ```java
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-```
-
+```java\n
 4. Add three empty test methods called `testStringPool()`, `testNewString()`, and `testEquals()`. Each method should:
    - Have a `void` return type
    - Take no arguments
@@ -88,8 +84,7 @@ public class TestStrings {
         // TODO
     }
 }
-```
-
+```java\n
 5. Implement each method in turn, declaring the Strings locally. This means that they will be declared more than once, but you will address that later. The assert method that you will use in each case is `assertTrue()`. An example is shown here:
 ```java
 @Test
@@ -98,8 +93,7 @@ public void testStringPool() {
     String s2 = "hello";
     assertTrue(s1 == s2);
 }
-```
-
+```java\n
 6. The static import for the assertion methods (`import static org.junit.jupiter.api.Assertions.*;`) allows you to use `assertTrue()`, `assertEquals()`, etc. without prefixing them with the class name. IntelliJ will help you add this import automatically when you use the assertions.
 
 ### Running your Test
@@ -154,8 +148,7 @@ public class TestStrings {
         assertTrue(s1.equals(s3));
     }
 }
-```
-
+```java\n
 4. Modify your three test methods to use the instance variables in place of the local variables. 
 
 5. Run your tests as before by right-clicking and selecting "Run 'TestStrings'" or using the green play button.
@@ -177,8 +170,7 @@ JUnit 5 offers many improvements over JUnit 4:
 public void testStringEquality() {
     assertEquals("hello", s1, "String should equal 'hello'");
 }
-```
-
+```java\n
 2. **Display Names**: Make your test results more readable:
 ```java
 @Test
@@ -186,8 +178,7 @@ public void testStringEquality() {
 public void testStringPool() {
     assertTrue(s1 == s2);
 }
-```
-
+```java\n
 3. **Grouped Assertions**: Test multiple conditions that should all be checked:
 ```java
 @Test
@@ -198,7 +189,6 @@ public void testAllStringProperties() {
         () -> assertTrue(s1.equals(s3), "Content should be equal")
     );
 }
-```
-
+```java\n
 Feel free to experiment with these additional features to make your tests more expressive and maintainable!
 

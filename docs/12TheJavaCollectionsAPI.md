@@ -10,13 +10,13 @@ In this exercise, you will revisit the array exercise that you completed in an e
 
 2.	Within main, declare a variable that will reference a HashSet of Account references called accounts.
 
-```
+```java
 HashSet<Account> accounts;
 ```
 
 3. Instantiate the HashSet using the default constructor.
 
-```
+```java
 accounts = new HashSet<Account>();
 ```
 
@@ -27,9 +27,9 @@ accounts = new HashSet<Account>();
     2.	Call addInterest().
     3.	Display the output from the getBalance() method.
 
-6.	Repeat the previous step, but this time, refactor using the Java5 “for each” construct 
+6.	Repeat the previous step, but this time, refactor using the Java5 "for each" construct 
 
-```
+```java
 for (Account a: accounts) {  
 
 }

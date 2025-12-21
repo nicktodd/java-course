@@ -23,7 +23,7 @@ We will firstly define two subclasses of our class called Account. One will be S
 
 5.	Now empty the contents of the addInterest method in the Account class. If you have time you will make it abstract later on. It should now look like this;
 
-```
+```java
 public void addInterest() {
 }
 ```
@@ -32,7 +32,7 @@ public void addInterest() {
 
 7.	Multiply the balance by 1.1 in the current account and multiply the balance by 1.4 in the savings account. Remember, the balance property is private in the superclass, so can only be accessed directly by the superclass. This means that in your addInterest methods, you will have to use get and set methods to access the balance variable. See below;
 
-```
+```java
 // add interest method from the subclass SavingsAccount
 @Override
 public void addInterest() {

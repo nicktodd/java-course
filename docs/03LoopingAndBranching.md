@@ -5,18 +5,15 @@ This lab will introduce you to using the various flow control constructs of the 
 ### Part 1 Using if / else
 The main method from your previous lab exercise should look something like this.
 
-
-
-```
+```java
 public static void main(String[] args) {
-              String make = "Renault";
-              String model = "Laguna";
-              double engineSize = 1.8;
-              byte gear = 2;
-              System.out.println("The make is " + make);
-              System.out.println("The model is " + model);
-              System.out.println("The engine size is " + engineSize);
-        }
+    String make = "Renault";
+    String model = "Laguna";
+    double engineSize = 1.8;
+    byte gear = 2;
+    System.out.println("The make is " + make);
+    System.out.println("The model is " + model);
+    System.out.println("The engine size is " + engineSize);
 }
 ```
 

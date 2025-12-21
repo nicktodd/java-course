@@ -8,7 +8,7 @@ We will now create an array of Account objects called **arrayOfAccounts**. Remem
 
 2.	Create two other arrays, one of doubles and one of Strings, which contain values for the names and balances of your account objects. Do this using two array initialisers. Make up values for these two arrays. Something like:
 
-```
+```java
 double[] amounts = {23,5444,2,345,34};
 String[] names = {"Picard", "Ryker", "Worf", "Troy", "Data"};
 ```

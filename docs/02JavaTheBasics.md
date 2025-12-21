@@ -22,7 +22,7 @@ You will need to use the string concatenator (+).
  
 Your code should look something like this;
 
-```
+```java
 public class MyFirstClass
 {
        public static void main(String[] args)

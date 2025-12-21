@@ -35,7 +35,7 @@ In this exercise you will create an Enum to represent the currency used by your 
 
 Your Currency Enum should now look something like this:
 
-```
+```java
 public enum Currency {
 	USD('$'), GBP('£'), EUR('€');
 	private char symbol;

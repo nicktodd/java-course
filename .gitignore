@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+
+# Java compiled output
+*.class
+
+# Java archives
+*.jar
+*.war
+*.ear
+
+# Build output directories
+bin/
+out/
+target/
+build/
+
+# Logs
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/

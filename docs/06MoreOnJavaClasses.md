@@ -1,4 +1,4 @@
-## Chapter 8 More on Java Classes 
+## More on Java Classes
 
 ### The Aims
 

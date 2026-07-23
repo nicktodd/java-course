@@ -1,4 +1,4 @@
-## Chapter 4: Looping and Branching
+## Looping and Branching
 ### The Aims
 This lab will introduce you to using the various flow control constructs of the Java language.
 

@@ -1,4 +1,4 @@
-## Chapter 13: Lambda Expressions
+## Lambda Expressions
 
 ### Aims
 

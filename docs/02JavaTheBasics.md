@@ -1,4 +1,4 @@
-## Chapter 3: Java – The Basics
+## Java – The Basics
 ### The Aims
 This lab will introduce you to using the primitive variable types, the basic operators, and the concept of casting. 
 

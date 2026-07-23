@@ -1,4 +1,4 @@
-## Chapter 7: Organising Java Classes
+## Organising Java Classes
 
 ### The Aims
 
@@ -7,12 +7,12 @@ In this lab you will reorganize your existing classes from previous labs into a 
 ### Understanding Your Current Structure
 
 By now, you should have several classes from previous exercises, including classes like:
-- `MyFirstClass` (from Chapter 1)
-- `Account` and its subclasses `SavingsAccount` and `CurrentAccount` (from Chapters 4 and 6)
-- `TestAccount`, `TestInheritance` or similar test classes
+- `Account` from module 5
+- `TestAccount` from module 5
+- `TestAccount2` from module 6
 
 
-Currently, all these classes are likely in the default package (no package declaration). We're going to organize them into a logical package structure.
+Currently, these classes are likely in the default package (no package declaration). We're going to organize them into a logical package structure.
 
 ### Creating Your Package Structure
 
@@ -38,7 +38,7 @@ src/
 
 Now you'll move your existing classes into the appropriate packages.
 
-#### Moving the Account Classes
+#### Moving the Account Class
 
 1. In the Project view, find your `Account` class.
 
@@ -49,13 +49,11 @@ Now you'll move your existing classes into the appropriate packages.
    - Update all references to this class throughout your project
    - Move the file to the correct folder structure
 
-4. Repeat this process for `SavingsAccount` and `CurrentAccount`, moving them to `com.banking.model`.
-
 #### Moving Test Classes
 
-1. Find your test class (e.g., `TestAccount`).
+1. Find your test classes (for example, `TestAccount` and `TestAccount2`).
 
-2. Drag that to the `com.banking.test` package and click "Refactor".
+2. Drag each one to the `com.banking.test` package and click "Refactor".
 
 
 ### Examining the Changes
@@ -74,9 +72,8 @@ public class Account {
 package com.banking.test;
 
 import com.banking.model.Account;
-import com.banking.model.SavingsAccount;
 
-public class TestAccount {
+public class TestAccount2 {
     // ...existing code...
 }
 ```
@@ -138,7 +135,7 @@ javac com/banking/model/Account.java
 
 4. Try to run a test class from the src directory:
 ```bash
-java com.banking.test.TestAccount
+java com.banking.test.TestAccount2
 ```
 
 Notice how you must use the fully qualified name (including package) to run the class.

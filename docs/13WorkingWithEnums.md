@@ -1,4 +1,4 @@
-## Chapter 15 Working with Enums
+## Working with Enums
 
 ### Aims
 

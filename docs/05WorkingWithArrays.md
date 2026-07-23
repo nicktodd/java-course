@@ -1,4 +1,4 @@
-## Chapter 7: Working with Arrays
+## Working with Arrays
 ### Aims
 You will now take the previous exercise a little further and modify the code to work with an array of accounts rather than single account references.
 ### Creating an array of Accounts

@@ -17,35 +17,35 @@ For the exercises, everything you need unless otherwise directed can be found at
 
 ## Course Labs Contents
 
-Chapter 1: [Introduction to Java](01IntroductionToJava.md)
+Introduction to Java [01IntroductionToJava.md](01IntroductionToJava.md)
 
-Chapter 2: [Java - The Basics](02JavaTheBasics.md)
+Java - The Basics [02JavaTheBasics.md](02JavaTheBasics.md)
 
-Chapter 3: [Looping and Branching](03LoopingAndBranching.md)
+Looping and Branching [03LoopingAndBranching.md](03LoopingAndBranching.md)
 
-Chapter 4: [Introduction to Objects in Java](04IntroductionToObjects.md)
+Introduction to Objects in Java [04IntroductionToObjects.md](04IntroductionToObjects.md)
 
-Chapter 5: [Working with Arrays](05WorkingWithArrays.md)
+Working with Arrays [05WorkingWithArrays.md](05WorkingWithArrays.md)
 
-Chapter 6: [More on Java Classes](06MoreOnJavaClasses.md)
+More on Java Classes [06MoreOnJavaClasses.md](06MoreOnJavaClasses.md)
 
-Chapter 7: [Organising Java Classes](07OrganisingJavaClasses.md)
+Organising Java Classes [07OrganisingJavaClasses.md](07OrganisingJavaClasses.md)
 
-Chapter 8: [Working with Strings](08WorkingWithStrings.md)
+Working with Strings [08WorkingWithStrings.md](08WorkingWithStrings.md)
 
-Chapter 9: [Inheritance and Abstraction](09InheritanceAndAbstraction.md)
+Inheritance and Abstraction [09InheritanceAndAbstraction.md](09InheritanceAndAbstraction.md)
 
-Chapter 10: [Interfaces](10Interfaces.md)
+Interfaces [10Interfaces.md](10Interfaces.md)
 
-Chapter 11: [Lambda Expressions](11LambdaExpressions.md)
+Lambda Expressions [11LambdaExpressions.md](11LambdaExpressions.md)
 
-Chapter 12: [The Java Collections API](12TheJavaCollectionsAPI.md)
+The Java Collections API [12TheJavaCollectionsAPI.md](12TheJavaCollectionsAPI.md)
 
-Chapter 13: [Working with Enums](13WorkingWithEnums.md)
+Working with Enums [13WorkingWithEnums.md](13WorkingWithEnums.md)
 
-Chapter 14: [Exception Handling](14ExceptionHandling.md)
+Exception Handling [14ExceptionHandling.md](14ExceptionHandling.md)
 
-Chapter 15: [Working with JUnit](15WorkingWithJUnit.md)
+Working with JUnit [15WorkingWithJUnit.md](15WorkingWithJUnit.md)
 
 ## Appendices
 

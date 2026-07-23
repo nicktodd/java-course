@@ -1,4 +1,4 @@
-## Chapter 10: Working with Strings
+## Working with Strings
 
 ### The Aims
 

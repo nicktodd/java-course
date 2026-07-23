@@ -1,4 +1,4 @@
-## Chapter 14: The Java Collections API
+## The Java Collections API
 
 ### Aims
 

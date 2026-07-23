@@ -1,4 +1,4 @@
-## Chapter 16: Working with Dates and Times
+## Working with Dates and Times
 
 ### Aims
 

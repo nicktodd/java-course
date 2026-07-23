@@ -1,4 +1,4 @@
-## Chapter 17: Exception Handling
+## Exception Handling
 
 ### The Aims
 

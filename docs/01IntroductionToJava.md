@@ -1,4 +1,4 @@
-## Chapter 1: Introduction to Java
+## Introduction to Java
 ### Aims
 
 In this lab, your aim is to gain familiarity with using the Java Developers Kit (JDK) compiler and runtime environment. We will write a simple Java class that will output some text to the console.

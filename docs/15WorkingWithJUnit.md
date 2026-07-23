@@ -1,4 +1,4 @@
-## Chapter 18 Working with JUnit
+## Working with JUnit
 
 ### Aims
 

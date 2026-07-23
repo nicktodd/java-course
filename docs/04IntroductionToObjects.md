@@ -1,4 +1,4 @@
-## Chapter 6:  Introduction to Objects in Java
+## Introduction to Objects in Java
 
 ### The Aims
 This lab will introduce you to defining classes with instance methods and variables, and then instantiating and manipulating the resulting objects from a main method.

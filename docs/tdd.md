@@ -1,4 +1,4 @@
-# Chapter 18 Working with JUnit and Test Driven Development
+# Working with JUnit and Test Driven Development
 
 ## Aims
 

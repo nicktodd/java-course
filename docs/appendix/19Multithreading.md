@@ -1,4 +1,4 @@
-## Chapter 19: Multithreading
+## Multithreading
 
 ### The Aims
 

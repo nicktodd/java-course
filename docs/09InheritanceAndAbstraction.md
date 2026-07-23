@@ -1,4 +1,4 @@
-## Chapter 11: Inheritance and Abstraction
+## Inheritance and Abstraction
 
 ### The Aims
 
